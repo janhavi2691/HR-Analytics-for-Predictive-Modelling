@@ -1,9 +1,13 @@
-dim(train_hr)
-dim(test_hr)
+#This is a HR Analytics case study implemented in R #
+#Load data
 train_hr<-read.csv("aug_train.csv",na.strings = c("","","NA"),
                    stringsAsFactors = T)
 test_hr<-read.csv("aug_test.csv",na.strings = c("","","NA"),
                   stringsAsFactors = T)
+#Get dimensions of loaded data
+dim(train_hr)
+dim(test_hr)
+#View entire data
 View(train_hr)
 View(test_hr)
 summary(train_hr)
