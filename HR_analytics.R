@@ -1,5 +1,5 @@
 #This is a HR Analytics case study implemented in R #
-#Load data
+#Load train and test data separately
 train_hr<-read.csv("aug_train.csv",na.strings = c("","","NA"),
                    stringsAsFactors = T)
 test_hr<-read.csv("aug_test.csv",na.strings = c("","","NA"),
